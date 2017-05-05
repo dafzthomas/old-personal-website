@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/dafzthomas/dafz.com.svg?token=84qvzwT6mw8ZymjsRhSF&branch=master)](https://travis-ci.com/dafzthomas/dafz.com)
+
 # Dafz Thomas Personal Website
 
 This is my personal website's repo. Has been made using Jekyll and is hosted with Github Pages.
