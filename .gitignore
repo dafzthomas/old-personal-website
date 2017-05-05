@@ -1,3 +1,5 @@
+_site/
+
 .jekyll-metadata
 
 *.scssc
@@ -5,5 +7,9 @@
 
 .idea/vcs.xml
 /.sass-cache/
+
+firebase.json
+
+database.rules.json
 
 .firebaserc
