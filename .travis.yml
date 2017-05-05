@@ -5,5 +5,13 @@ script:
   - echo "Deploying!"
 install:
   - npm install -g firebase-tools
+  - gem install jekyll
+  - gem install jekyll-sitemap
+  - gem install jekyll-feed
+  - gem install jekyll-paginate
+  - gem install sass
+  - gem install octopress-autoprefixer
+  - gem install octopress-minify-html
+  - jekyll build
 after_success:
   - firebase deploy --token $FIREBASE_TOKEN
