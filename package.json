@@ -1,0 +1,22 @@
+{
+  "name": "dafz.com",
+  "version": "1.0.0",
+  "description": "This is my personal website's repo. Has been made using Jekyll and is hosted with Github Pages.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dafzthomas/dafz.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dafzthomas/dafz.com/issues"
+  },
+  "homepage": "https://github.com/dafzthomas/dafz.com#readme",
+  "dependencies": {
+    "jekyll": "^3.0.0-beta1"
+  }
+}

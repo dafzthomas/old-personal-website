@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="https://dafz.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dafz.com/" rel="alternate" type="text/html" /><updated>2017-04-15T15:22:47+01:00</updated><id>https://dafz.com/</id><title>Dafydd Thomas</title><subtitle>Front-end web developer based in Wales.</subtitle><entry><title>Website Version 2</title><link href="https://dafz.com/site-redesign-1/" rel="alternate" type="text/html" title="Website Version 2" /><published>2017-01-06T00:00:00+00:00</published><updated>2017-01-06T00:00:00+00:00</updated><id>https://dafz.com/site-redesign-1</id><content type="html" xml:base="https://dafz.com/site-redesign-1/">&lt;section class=&quot;container&quot;&gt;
+	&lt;h1&gt;Website Version 2&lt;/h1&gt;
+
+
+&lt;p class=&quot;meta&quot;&gt;January 06, 2017&lt;/p&gt;
+
+
+
+	&lt;h3&gt;UPDATE&lt;/h3&gt;
+	&lt;p&gt;Been updated since then... AGAIN. But hey, we&#39;re an ever evolving organism!&lt;/p&gt;
+	&lt;p&gt;...&lt;/p&gt;
+
+	&lt;p class=&quot;drop-cap-p&quot;&gt;Hey look! A new design for this website, how wonderful for the start of the year!&lt;/p&gt;
+	&lt;p&gt;This really isn&#39;t much of a drastic change, just a slight tweak to colours and general feel. Everything is still in the same place as it was with my previous design as changing that would be quite silly, /now, /work, /about pages as they were.&lt;/p&gt;
+	&lt;p&gt;Here&#39;s some before and after images:&lt;/p&gt;
+
+	&lt;figure&gt;
+		&lt;img src=&quot;/images/before-desktop.png&quot; alt=&quot;Before, desktop screenshot.&quot; /&gt;
+		&lt;figcaption&gt;Before, desktop screenshot.&lt;/figcaption&gt;
+	&lt;/figure&gt;
+
+	&lt;figure&gt;
+		&lt;img src=&quot;/images/after-desktop.png&quot; alt=&quot;After, desktop screenshot.&quot; /&gt;
+		&lt;figcaption&gt;After, desktop screenshot.&lt;/figcaption&gt;
+	&lt;/figure&gt;
+
+	&lt;p&gt;Very early days, but I wanted to update it a little and update it whenever I get some free time. Actually recording my website progress is a nice addition!&lt;/p&gt;
+&lt;/section&gt;
+
+&lt;aside class=&quot;container recent-posts&quot;&gt;
+    
+        
+    
+        
+            &lt;article class=&quot;post&quot;&gt;
+                &lt;h3&gt;&lt;a href=&quot;/self-hosting/&quot; aria-label=&quot;Post: Why I&#39;ve moved to Digital Ocean for this website&quot;&gt;Why I&#39;ve moved to Digital Ocean for this website&lt;/a&gt;&lt;/h3&gt;
+                &lt;div class=&quot;post__content&quot;&gt;
+                    
+                    &lt;p class=&quot;meta&quot;&gt;August 31, 2016&lt;/p&gt;
+                    
+                    &lt;p aria-label=&quot;Post excerpt: I explain why and how I&#39;ve moved my Jekyll website over to self managed hosting on Digital Ocean.&quot;&gt;I explain why and how I&#39;ve moved my Jekyll website over to self managed hosting on Digital Ocean.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/article&gt;
+        
+    
+&lt;/aside&gt;
+
+
+&lt;section class=&quot;container&quot;&gt;
+	&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+	&lt;script&gt;
+		/**
+		 * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+		 * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+		 */
+		/*
+		 var disqus_config = function () {
+		 this.page.url = PAGE_URL; // Replace PAGE_URL with your page&#39;s canonical URL variable
+		 this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page&#39;s unique identifier variable
+		 };
+		 */
+		(function() { // DON&#39;T EDIT BELOW THIS LINE
+			var d = document, s = d.createElement(&#39;script&#39;);
+
+			s.src = &#39;//dafzthomaswebsite.disqus.com/embed.js&#39;;
+
+			s.setAttribute(&#39;data-timestamp&#39;, +new Date());
+			(d.head || d.body).appendChild(s);
+		})();
+	&lt;/script&gt;
+    &lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot; rel=&quot;nofollow&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+    &lt;script id=&quot;dsq-count-scr&quot; src=&quot;//dafzthomaswebsite.disqus.com/count.js&quot; async&gt;&lt;/script&gt;
+&lt;/section&gt;</content><summary>Website Version 2
+
+
+January 06, 2017</summary></entry><entry><title>Why I’ve moved to Digital Ocean for this website</title><link href="https://dafz.com/self-hosting/" rel="alternate" type="text/html" title="Why I&#39;ve moved to Digital Ocean for this website" /><published>2016-08-31T00:00:00+01:00</published><updated>2016-08-31T00:00:00+01:00</updated><id>https://dafz.com/self-hosting</id><content type="html" xml:base="https://dafz.com/self-hosting/">&lt;section class=&quot;container&quot;&gt;
+	&lt;h1&gt;Why I&#39;ve moved to Digital Ocean for this website&lt;/h1&gt;
+
+
+&lt;p class=&quot;meta&quot;&gt;August 31, 2016&lt;/p&gt;
+
+
+
+	&lt;p class=&quot;drop-cap-p&quot;&gt;As of last week I&#39;ve moved this website from Github Pages and into a custom git repo on Digital Ocean (DO). Been sitting on the idea of having complete control over how my website is served and freely having the choice of Jekyll plugins (autoprefixr is one example) and only now have completed it.&lt;/p&gt;
+
+	&lt;img src=&quot;/images/lets-encrypt.jpg&quot; srcset=&quot;/images/lets-encrypt-320.jpg 320w, /images/lets-encrypt-500.jpg 500w&quot; alt=&quot;Let&#39;s Encrypt banner image art.&quot;&gt;
+	&lt;p class=&quot;meta&quot;&gt;Image from &lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-16-04&quot; target=&quot;_blank&quot; title=&quot;How To Secure Nginx with Let&#39;s Encrypt on Ubuntu 16.04&quot;&gt;Digital Ocean tutorial&lt;/a&gt;&lt;/p&gt;
+	&lt;p&gt;Firstly my setup on DO is an Ubuntu server with nginx, jekyll and git installed. Before setting up what I need for quick deployment, I pointed my domain to DO so I could set up &lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-16-04&quot; target=&quot;_blank&quot; title=&quot;How To Secure Nginx with Let&#39;s Encrypt on Ubuntu 16.04&quot;&gt;lets-encrypt&lt;/a&gt;. Let&#39;s Encrypt is a free SSL certificate authority for developers. Since HTTPS is essentially a must for every website these days I wanted to make sure I had control over it instead of using Cloudflare as a shield.&lt;/p&gt;
+
+	&lt;p&gt;When that is done I then followed a &lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-deploy-jekyll-blogs-with-git&quot; target=&quot;_blank&quot; title=&quot;How To Deploy Jekyll Blogs with Git&quot;&gt;tutorial&lt;/a&gt; on how to deploy Jekyll from a custom git on a DO droplet. I did try to setup my Github repository to push onto the droplet but this didn&#39;t work out for me! Intead having my own local git repository gave me even more control (or more room for failure!).&lt;/p&gt;
+
+	&lt;h2&gt;Benefits&lt;/h2&gt;
+	&lt;p&gt;For me it is being able to setup and fully manage the server and Jekyll. On Github pages there is limited available plugins for use with Jekyll, my favourite one of choice is &lt;a href=&quot;https://github.com/octopress/autoprefixer&quot; target=&quot;_blank&quot; title=&quot;Octopress Autoprefixer&quot;&gt;autoprefixr&lt;/a&gt;.&lt;/p&gt;
+
+	&lt;p&gt;Another is nginx&#39;s capability to utilise &lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-add-the-gzip-module-to-nginx-on-ubuntu-14-04&quot; target=&quot;_blank&quot; title=&quot;How To Add the gzip Module to Nginx&quot;&gt;gzip&lt;/a&gt;. Gzip allows the server to compress the source files further to be served to the browser. The technicalities... I&#39;m not sure, but it works!&lt;/p&gt;
+
+	&lt;p&gt;So with nginx, jekyll and git I&#39;ve got my website up and running on a DO droplet. I highly recommend trying it out as it gets you familiar with ssh command line access to a server and managing it.&lt;/p&gt;
+
+&lt;/section&gt;
+
+&lt;aside class=&quot;container recent-posts&quot;&gt;
+    
+        
+            &lt;article class=&quot;post&quot;&gt;
+                &lt;h3&gt;&lt;a href=&quot;/site-redesign-1/&quot; aria-label=&quot;Post: Website Version 2&quot;&gt;Website Version 2&lt;/a&gt;&lt;/h3&gt;
+                &lt;div class=&quot;post__content&quot;&gt;
+                    
+                    &lt;p class=&quot;meta&quot;&gt;January 06, 2017&lt;/p&gt;
+                    
+                    &lt;p aria-label=&quot;Post excerpt: My second actually recorded website design.&quot;&gt;My second actually recorded website design.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/article&gt;
+        
+    
+        
+    
+&lt;/aside&gt;
+
+
+&lt;section class=&quot;container&quot;&gt;
+	&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+	&lt;script&gt;
+		/**
+		 * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+		 * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+		 */
+		/*
+		 var disqus_config = function () {
+		 this.page.url = PAGE_URL; // Replace PAGE_URL with your page&#39;s canonical URL variable
+		 this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page&#39;s unique identifier variable
+		 };
+		 */
+		(function() { // DON&#39;T EDIT BELOW THIS LINE
+			var d = document, s = d.createElement(&#39;script&#39;);
+
+			s.src = &#39;//dafzthomaswebsite.disqus.com/embed.js&#39;;
+
+			s.setAttribute(&#39;data-timestamp&#39;, +new Date());
+			(d.head || d.body).appendChild(s);
+		})();
+	&lt;/script&gt;
+    &lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot; rel=&quot;nofollow&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+    &lt;script id=&quot;dsq-count-scr&quot; src=&quot;//dafzthomaswebsite.disqus.com/count.js&quot; async&gt;&lt;/script&gt;
+&lt;/section&gt;</content><summary>Why I&#39;ve moved to Digital Ocean for this website
+
+
+August 31, 2016</summary></entry><entry><title>Web Apps - What are they?</title><link href="https://dafz.com/what-are-web-apps/" rel="alternate" type="text/html" title="Web Apps - What are they?" /><published>2016-05-24T00:00:00+01:00</published><updated>2016-05-24T00:00:00+01:00</updated><id>https://dafz.com/what-are-web-apps</id><content type="html" xml:base="https://dafz.com/what-are-web-apps/">&lt;section class=&quot;container&quot;&gt;
+	&lt;h1&gt;Web Apps - What are they?&lt;/h1&gt;
+
+
+&lt;p class=&quot;meta&quot;&gt;May 24, 2016&lt;/p&gt;
+
+
+
+	&lt;p&gt;&lt;strong&gt;Warning: This is a thought stream and I am still forming opinions on the topic.&lt;/strong&gt;&lt;/p&gt;
+
+	&lt;p class=&quot;drop-cap-p&quot;&gt;A discussion began on Twitter between myself and &lt;a href=&quot;https://twitter.com/adactio&quot; title=&quot;Jeremy&#39;s Twitter&quot;&gt;Jeremy Keith&lt;/a&gt; concerning the term &#39;web apps&#39;. It became confusing and thought it best to write my thoughts down in a short post.&lt;/p&gt;
+	&lt;p&gt;What got me thinking is the following question of this tweet:&lt;/p&gt;
+	&lt;blockquote class=&quot;twitter-tweet&quot; data-conversation=&quot;none&quot; data-lang=&quot;en-gb&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/dafzthomas&quot;&gt;@dafzthomas&lt;/a&gt; Those are examples, not definitions.&lt;br&gt;&lt;br&gt;Follow-up question: *why* do you want to subdivide the whole web into two categories?&lt;/p&gt;&amp;mdash; Jeremy Keith (@adactio) &lt;a href=&quot;https://twitter.com/adactio/status/735031930576592897&quot;&gt;24 May 2016&lt;/a&gt;&lt;/blockquote&gt;
+	&lt;script async src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+	&lt;p&gt;He has a good point. I had provided examples to what he had asked &#39;Define &quot;web app&quot;&#39;, but never gave a distinguishing factor to what a web app was. Go read his &lt;a href=&quot;https://adactio.com/journal/6246&quot; title=&quot;Jeremy&#39;s journal entry on why we shouldn&#39;t distinguish website and web app as two different things.&quot;&gt;journal&lt;/a&gt; about how we should not make these distinguishes.&lt;/p&gt;
+
+	&lt;p&gt;My question is: Would you call Trello or Google Docs a &#39;website&#39;?
+	&lt;p&gt;To me a website is something I load on a web browser to access information I may or may not interact with e.g Twitter, Wikipedia, someone&#39;s blog.&lt;/p&gt;
+
+	&lt;p&gt;Then a web app is an application that can be accessed in the web browser that acts just like a native application but within the browser e.g. Google Docs, Trello, Messenger, Gmail etc. There&#39;s a distinct different in the use case of Twitter and Google Docs.&lt;/p&gt;
+
+	&lt;p&gt;&lt;strong&gt;Are they actually different?&lt;/strong&gt;&lt;/p&gt;
+
+	&lt;p&gt;Maybe some people see something called &#39;website&#39; as all of the above and think me stupid, maybe some don&#39;t even know what a URL is, who knows! But I think a new word/phrase should be used to describe the web as a whole just as Jeremy said in his journal entry, &#39;web thangs&#39;, to stop confusion with the general public and these buzzwords.&lt;/p&gt;
+
+	&lt;p&gt;Thanks for visiting my web thang.&lt;/p&gt;
+
+&lt;/section&gt;
+
+&lt;aside class=&quot;container recent-posts&quot;&gt;
+    
+        
+            &lt;article class=&quot;post&quot;&gt;
+                &lt;h3&gt;&lt;a href=&quot;/site-redesign-1/&quot; aria-label=&quot;Post: Website Version 2&quot;&gt;Website Version 2&lt;/a&gt;&lt;/h3&gt;
+                &lt;div class=&quot;post__content&quot;&gt;
+                    
+                    &lt;p class=&quot;meta&quot;&gt;January 06, 2017&lt;/p&gt;
+                    
+                    &lt;p aria-label=&quot;Post excerpt: My second actually recorded website design.&quot;&gt;My second actually recorded website design.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/article&gt;
+        
+    
+        
+            &lt;article class=&quot;post&quot;&gt;
+                &lt;h3&gt;&lt;a href=&quot;/self-hosting/&quot; aria-label=&quot;Post: Why I&#39;ve moved to Digital Ocean for this website&quot;&gt;Why I&#39;ve moved to Digital Ocean for this website&lt;/a&gt;&lt;/h3&gt;
+                &lt;div class=&quot;post__content&quot;&gt;
+                    
+                    &lt;p class=&quot;meta&quot;&gt;August 31, 2016&lt;/p&gt;
+                    
+                    &lt;p aria-label=&quot;Post excerpt: I explain why and how I&#39;ve moved my Jekyll website over to self managed hosting on Digital Ocean.&quot;&gt;I explain why and how I&#39;ve moved my Jekyll website over to self managed hosting on Digital Ocean.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/article&gt;
+        
+    
+&lt;/aside&gt;
+
+
+&lt;section class=&quot;container&quot;&gt;
+	&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+	&lt;script&gt;
+		/**
+		 * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+		 * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+		 */
+		/*
+		 var disqus_config = function () {
+		 this.page.url = PAGE_URL; // Replace PAGE_URL with your page&#39;s canonical URL variable
+		 this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page&#39;s unique identifier variable
+		 };
+		 */
+		(function() { // DON&#39;T EDIT BELOW THIS LINE
+			var d = document, s = d.createElement(&#39;script&#39;);
+
+			s.src = &#39;//dafzthomaswebsite.disqus.com/embed.js&#39;;
+
+			s.setAttribute(&#39;data-timestamp&#39;, +new Date());
+			(d.head || d.body).appendChild(s);
+		})();
+	&lt;/script&gt;
+    &lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot; rel=&quot;nofollow&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+    &lt;script id=&quot;dsq-count-scr&quot; src=&quot;//dafzthomaswebsite.disqus.com/count.js&quot; async&gt;&lt;/script&gt;
+&lt;/section&gt;</content><summary>Web Apps - What are they?
+
+
+May 24, 2016</summary></entry><entry><title>Up and running on Jekyll</title><link href="https://dafz.com/Up-and-Running-on-Jekyll/" rel="alternate" type="text/html" title="Up and running on Jekyll" /><published>2016-03-15T00:00:00+00:00</published><updated>2016-03-15T00:00:00+00:00</updated><id>https://dafz.com/Up-and-Running-on-Jekyll</id><content type="html" xml:base="https://dafz.com/Up-and-Running-on-Jekyll/">&lt;section class=&quot;container&quot;&gt;
+    &lt;h1&gt;Up and running on Jekyll&lt;/h1&gt;
+
+
+&lt;p class=&quot;meta&quot;&gt;March 15, 2016&lt;/p&gt;
+
+
+
+    &lt;p class=&quot;drop-cap-p&quot;&gt;Yes this site is not run in WordPress; yes it is statically generated by Jekyll. What is Jekyll? There are only a few reasons I have used Jekyll.&lt;/p&gt;
+    &lt;ul&gt;
+        &lt;li&gt;Speed&lt;/li&gt;
+        &lt;li&gt;Modularity&lt;/li&gt;
+        &lt;li&gt;Free hosting&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;For the most part, I previously used WordPress because of how modular it was to create a style/theme. It ensured that I didn&#39;t duplicate common things like the header and footer. Simple stuff.&lt;/p&gt;
+    &lt;p&gt;The free hosting is from Github allowing me to any front end code I choose. The only drawback is I cannot have anything that is server side like a contact form.&lt;/p&gt;
+    &lt;p&gt;I&#39;ve decided not to use a contact form as it&#39;s pretty useless for my uses. If someone really wants to contact me, they can click my email on the left if you&#39;re on desktop and in the footer if you&#39;re on mobile.&lt;/p&gt;
+    &lt;p&gt;That&#39;s it, thanks for visiting!&lt;/p&gt;
+&lt;/section&gt;
+
+&lt;aside class=&quot;container recent-posts&quot;&gt;
+    
+        
+            &lt;article class=&quot;post&quot;&gt;
+                &lt;h3&gt;&lt;a href=&quot;/site-redesign-1/&quot; aria-label=&quot;Post: Website Version 2&quot;&gt;Website Version 2&lt;/a&gt;&lt;/h3&gt;
+                &lt;div class=&quot;post__content&quot;&gt;
+                    
+                    &lt;p class=&quot;meta&quot;&gt;January 06, 2017&lt;/p&gt;
+                    
+                    &lt;p aria-label=&quot;Post excerpt: My second actually recorded website design.&quot;&gt;My second actually recorded website design.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/article&gt;
+        
+    
+        
+            &lt;article class=&quot;post&quot;&gt;
+                &lt;h3&gt;&lt;a href=&quot;/self-hosting/&quot; aria-label=&quot;Post: Why I&#39;ve moved to Digital Ocean for this website&quot;&gt;Why I&#39;ve moved to Digital Ocean for this website&lt;/a&gt;&lt;/h3&gt;
+                &lt;div class=&quot;post__content&quot;&gt;
+                    
+                    &lt;p class=&quot;meta&quot;&gt;August 31, 2016&lt;/p&gt;
+                    
+                    &lt;p aria-label=&quot;Post excerpt: I explain why and how I&#39;ve moved my Jekyll website over to self managed hosting on Digital Ocean.&quot;&gt;I explain why and how I&#39;ve moved my Jekyll website over to self managed hosting on Digital Ocean.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/article&gt;
+        
+    
+&lt;/aside&gt;
+
+&lt;section class=&quot;container&quot;&gt;
+	&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+	&lt;script&gt;
+		/**
+		 * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+		 * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+		 */
+		/*
+		 var disqus_config = function () {
+		 this.page.url = PAGE_URL; // Replace PAGE_URL with your page&#39;s canonical URL variable
+		 this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page&#39;s unique identifier variable
+		 };
+		 */
+		(function() { // DON&#39;T EDIT BELOW THIS LINE
+			var d = document, s = d.createElement(&#39;script&#39;);
+
+			s.src = &#39;//dafzthomaswebsite.disqus.com/embed.js&#39;;
+
+			s.setAttribute(&#39;data-timestamp&#39;, +new Date());
+			(d.head || d.body).appendChild(s);
+		})();
+	&lt;/script&gt;
+    &lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot; rel=&quot;nofollow&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+    &lt;script id=&quot;dsq-count-scr&quot; src=&quot;//dafzthomaswebsite.disqus.com/count.js&quot; async&gt;&lt;/script&gt;
+&lt;/section&gt;</content><summary>Up and running on Jekyll
+
+
+March 15, 2016</summary></entry><entry><title>Wedding Invitation Design</title><link href="https://dafz.com/invitation-design-weddings/" rel="alternate" type="text/html" title="Wedding Invitation Design" /><published>2015-07-02T00:00:00+01:00</published><updated>2015-07-02T00:00:00+01:00</updated><id>https://dafz.com/invitation-design-weddings</id><content type="html" xml:base="https://dafz.com/invitation-design-weddings/">&lt;section class=&quot;container&quot;&gt;
+    &lt;h1&gt;Wedding Invitation Design&lt;/h1&gt;
+
+
+&lt;p class=&quot;meta&quot;&gt;July 02, 2015&lt;/p&gt;
+
+
+
+    &lt;p class=&quot;drop-cap-p&quot;&gt;A few months ago I undertook the important task of designing Wedding Invitations for my sister and her now husband. (woo weddings!)&lt;/p&gt;
+    &lt;p&gt;I delved into what I needed to know to make it.&lt;/p&gt;
+    &lt;ul&gt;
+        &lt;li&gt;Theme: We know it&#39;s weddings.&lt;/li&gt;
+        &lt;li&gt;Theme 2.0: What style of wedding?&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;From knowing Theme 2.0 we can already start to throw in ideas.&lt;/p&gt;
+    &lt;p&gt;Although, I am lucky to have a sister who&#39;s upfront with what she wants. She wanted the invitations to be like Boarding Passes.&lt;/p&gt;
+    &lt;p&gt;*Begins the research into boarding passes.&lt;/p&gt;
+    &lt;p&gt;Here&#39;s what I made.&lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;container container-wide&quot;&gt;
+    &lt;img src=&quot;/images/weddings.jpg&quot; srcset=&quot;/images/weddings-400.jpg 400w, /images/weddings-600.jpg 600w, /images/weddings-800.jpg 800w&quot; alt=&quot;Wedding Invitation&quot;&gt;
+&lt;/section&gt;
+
+&lt;aside class=&quot;container recent-posts&quot;&gt;
+    
+        
+            &lt;article class=&quot;post&quot;&gt;
+                &lt;h3&gt;&lt;a href=&quot;/site-redesign-1/&quot; aria-label=&quot;Post: Website Version 2&quot;&gt;Website Version 2&lt;/a&gt;&lt;/h3&gt;
+                &lt;div class=&quot;post__content&quot;&gt;
+                    
+                    &lt;p class=&quot;meta&quot;&gt;January 06, 2017&lt;/p&gt;
+                    
+                    &lt;p aria-label=&quot;Post excerpt: My second actually recorded website design.&quot;&gt;My second actually recorded website design.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/article&gt;
+        
+    
+        
+            &lt;article class=&quot;post&quot;&gt;
+                &lt;h3&gt;&lt;a href=&quot;/self-hosting/&quot; aria-label=&quot;Post: Why I&#39;ve moved to Digital Ocean for this website&quot;&gt;Why I&#39;ve moved to Digital Ocean for this website&lt;/a&gt;&lt;/h3&gt;
+                &lt;div class=&quot;post__content&quot;&gt;
+                    
+                    &lt;p class=&quot;meta&quot;&gt;August 31, 2016&lt;/p&gt;
+                    
+                    &lt;p aria-label=&quot;Post excerpt: I explain why and how I&#39;ve moved my Jekyll website over to self managed hosting on Digital Ocean.&quot;&gt;I explain why and how I&#39;ve moved my Jekyll website over to self managed hosting on Digital Ocean.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/article&gt;
+        
+    
+&lt;/aside&gt;
+
+&lt;section class=&quot;container&quot;&gt;
+	&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+	&lt;script&gt;
+		/**
+		 * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+		 * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+		 */
+		/*
+		 var disqus_config = function () {
+		 this.page.url = PAGE_URL; // Replace PAGE_URL with your page&#39;s canonical URL variable
+		 this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page&#39;s unique identifier variable
+		 };
+		 */
+		(function() { // DON&#39;T EDIT BELOW THIS LINE
+			var d = document, s = d.createElement(&#39;script&#39;);
+
+			s.src = &#39;//dafzthomaswebsite.disqus.com/embed.js&#39;;
+
+			s.setAttribute(&#39;data-timestamp&#39;, +new Date());
+			(d.head || d.body).appendChild(s);
+		})();
+	&lt;/script&gt;
+    &lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot; rel=&quot;nofollow&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+    &lt;script id=&quot;dsq-count-scr&quot; src=&quot;//dafzthomaswebsite.disqus.com/count.js&quot; async&gt;&lt;/script&gt;
+&lt;/section&gt;</content><summary>Wedding Invitation Design
+
+
+July 02, 2015</summary></entry></feed>
