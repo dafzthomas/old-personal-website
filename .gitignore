@@ -8,8 +8,5 @@ _site/
 .idea/vcs.xml
 /.sass-cache/
 
-firebase.json
-
-database.rules.json
-
 .firebaserc
+/functions
