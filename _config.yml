@@ -1,0 +1,44 @@
+#
+# This file contains configuration flags to customize your site
+#
+name: Dafydd Thomas
+email: dafz@dafzthomas.com
+description: Front-end web developer based in Wales.
+avatar: https://avatars0.githubusercontent.com/u/7442896?v=3&s=240
+
+disqus: dafzthomaswebsite
+google_analytics: UA-47867713-1
+
+# Used for Sitemap.xml and your RSS feed
+url: https://dafz.com
+
+baseurl: ""
+
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+version: v2
+
+paginate: 5
+paginate_path: "/blog/:num/"
+
+sass:
+  style: compressed
+
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+  - sass
+  - octopress-autoprefixer
+  - octopress-minify-html
+
+# Exclude these files from your production _site
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+    - CNAME
+    - cache-polyfill.js
+    - service.js

@@ -1,0 +1,30 @@
+---
+layout: default
+title: Front end web developer
+title-class: front-page
+bannerStyle: "background: #11367d; color: #FFF;"
+---
+
+<section class="container">
+    {% include title-normal.html %}
+    <p>Hi! My name is Dafydd 'Dafz' Thomas.</p>
+    <p>Want to know what I'm up to? Check out the posts below or my <a href="/now/" title="My 'now' page outlining where I am at this moment in life.">Now page</a>.</p>
+    <p>For work related inquiries please visit my <a href="/work/">Work page</a>.</p>
+</section>
+
+<section class="container posts">
+    {% for post in site.categories['blog'] %}
+    <article class="post">
+        <h3><a href="{{ post.url }}" aria-label="Post: {{ post.title }}">{{ post.title }}</a></h3>
+        <div class="post__content">
+            {% if post.date %}
+            <p class="meta">{{ post.date | date: '%B %d, %Y' }}</p>
+            {% endif %}
+            <p aria-label="Post excerpt: {{ post.postExcerpt }}">{{ post.postExcerpt }}</p>
+        </div>
+    </article>
+    {% if forloop.last == false %}
+    <!--<hr>-->
+    {% endif %}
+    {% endfor %}
+</section>

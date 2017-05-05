@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html style="right: 0px;">
+    <head>
+        <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+        {% include meta.html %}
+
+        <link rel="stylesheet" type="text/css" href="/style.css"/>
+        <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}"
+              href="/feed.xml"/>
+        <meta name="google-site-verification" content="sB77Kt_CSr16TtlOcVJXCvtavKcckjVnwSL6lDQNWmY" />
+    </head>
+
+    <body class="body-layout">
+        {% include header.html %}
+        <main id="main" role="main">
+            {{ content }}
+        </main>
+        {% include footer.html %}
+        <script src="/app.js"></script>
+    </body>
+</html>

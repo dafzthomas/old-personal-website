@@ -1,0 +1,123 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: $dark-foreground;
+    text-align: center;
+    padding: $padding-medium 0;
+    margin-bottom: $padding-medium;
+    border-bottom: 1px solid $secondary-tint;
+    @media screen and (max-width: $mobile-breakpoint) {
+        display: block;
+        margin-bottom: 0;
+    }
+    .site-logo {
+        margin-left: $padding-small;
+        img {
+            max-width: 220px;
+            height: auto;
+            @media screen and (max-width: $mobile-breakpoint) {
+                width: 200px;
+            }
+        }
+    }
+    .main-nav {
+        font-size: 1.1rem;
+        margin: $padding-small + $padding-tiny;
+        a {
+            text-decoration: none;
+            color: $dark-foreground;
+            padding: $padding-small;
+            margin: $padding-tiny;
+            transition: text-decoration 0.2s ease, color 0.2s ease;
+            &:hover {
+                color: $main-colour;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: $padding;
+}
+
+.post {
+    flex: 1 300px;
+    h3 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        a {
+            color: $main-colour;
+        }
+    }
+}
+
+.recent-posts {
+    border-top: 1px solid $secondary-tint;
+    padding-top: 20px;
+}
+
+.meta {
+    margin: 10px 0 5px 0;
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+@supports (initial-letter: 1) or (-webkit-initial-letter: 1) {
+    p.drop-cap-p::first-letter {
+        color: #3d80c2;
+        font-weight: bold;
+        margin-right: 0.5em;
+        margin-top: 1em;
+        -webkit-initial-letter: 2;
+        initial-letter: 2;
+    }
+}
+
+.profile-circle {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 0 $padding-medium $padding-small 0;
+    shape-outside: polygon(0% 50%, 25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%);
+    -webkit-clip-path: polygon(0% 50%, 25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%);
+    clip-path: polygon(0% 50%, 25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%);
+    @media screen and (max-width: 560px) {
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+}
+
+.footer {
+    clear: both;
+    .footer__flex-area {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: $padding 0;
+    }
+    section {
+        flex: 1;
+    }
+    .info {
+        text-align: right;
+    }
+}
+
+.social-icons {
+    img {
+        width: 40px;
+        height: 40px;
+        margin: 5px;
+        padding: 0;
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+}

@@ -1,0 +1,178 @@
+// Colors
+$main-colour: #347FC4;
+$secondary-tint: #d2d2d2;
+
+$dark-background: #1a2127;
+$light-background: #fff;
+
+$light-foreground: #fff;
+$dark-foreground: #0e0e0e;
+
+$light-tint: #f7f7f7;
+
+// Breakpoints
+$mobile-breakpoint: 750px;
+
+// Box Padding Defaults
+$padding: 40px;
+$padding-medium: 20px;
+$padding-small: 10px;
+$padding-tiny: 5px;
+
+html, body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: -apple-system, 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 400;
+    color: $dark-foreground;
+    font-size: 100%;
+    position: relative;
+    transition: right .3s cubic-bezier(0.25, 0.1, 0.25, 1);
+    overflow-x: hidden;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.25),
+only screen and ( min-device-pixel-ratio: 1.25),
+only screen and ( min-resolution: 200dpi),
+only screen and ( min-resolution: 1.25dppx) {
+    html {
+        -webkit-font-smoothing: subpixel-antialiased;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1rem;
+    box-sizing: border-box;
+}
+
+video, iframe {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    margin: 0 auto;
+    min-width: 320px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+
+    @media screen and (max-width: $mobile-breakpoint) {
+        padding: $padding-medium $padding-medium 0 $padding-medium;
+    }
+}
+
+a {
+    &:hover, &.underline {
+        text-decoration: underline;
+    }
+
+    &:link, &:visited {
+        color: $dark-foreground;
+    }
+
+    &[href^="http"]:empty::before {
+        content: attr(href);
+    }
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+li > ul {
+    margin-left: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $main-colour;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 3rem;
+}
+
+p, li {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+p, ul, ol {
+    margin-bottom: $padding-medium;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.center-text {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: $padding-medium;
+
+    @media screen and (max-width: $mobile-breakpoint) {
+        font-size: 2rem;
+    }
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+h4 {
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+h6 {
+    font-size: .7rem;
+}
+
+blockquote {
+    position: relative;
+    margin: 2rem;
+    font-size: 1.6rem;
+    quotes: "\201C""\201D""\2018""\2019";
+
+    &:before {
+        content: open-quote;
+        position: absolute;
+        font-size: 4rem;
+        left: -33px;
+        top: -23px;
+        color: #B7B7B7;
+    }
+}
+
+figure {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: $light-tint;
+
+    figcaption {
+        text-align: center;
+        font-style: italic;
+        font-size: .8rem;
+        padding-top: $padding-small;
+    }
+}
