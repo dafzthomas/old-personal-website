@@ -1,6 +1,7 @@
 #
 # This file contains configuration flags to customize your site
 #
+version: 1705
 name: Dafydd Thomas
 email: dafz@dafzthomas.com
 description: Front-end web developer based in Wales.
