@@ -1,25 +1,20 @@
 // Colors
 $main-colour: #347FC4;
 $secondary-tint: #d2d2d2;
-
 $dark-background: #1a2127;
 $light-background: #fff;
-
 $light-foreground: #fff;
 $dark-foreground: #0e0e0e;
-
 $light-tint: #f7f7f7;
-
 // Breakpoints
 $mobile-breakpoint: 750px;
-
 // Box Padding Defaults
 $padding: 40px;
 $padding-medium: 20px;
 $padding-small: 10px;
 $padding-tiny: 5px;
-
-html, body {
+html,
+body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: -apple-system, 'Helvetica Neue', Helvetica, sans-serif;
@@ -47,34 +42,43 @@ only screen and ( min-resolution: 1.25dppx) {
     box-sizing: border-box;
 }
 
-video, iframe {
+video,
+iframe {
     width: 100%;
     height: auto;
 }
 
 body {
     margin: 0 auto;
-    min-width: 320px;
+    min-height: 100vh;
 }
 
 .container {
-    max-width: 800px;
     margin: 0 auto;
-
+    padding: $padding;
     @media screen and (max-width: $mobile-breakpoint) {
-        padding: $padding-medium $padding-medium 0 $padding-medium;
+        padding: $padding-medium;
+    }
+}
+
+.dark {
+    background: $dark-background;
+    color: $light-foreground;
+    a:link,
+    a:visited {
+        color: $light-foreground !important;
     }
 }
 
 a {
-    &:hover, &.underline {
+    &:hover,
+    &.underline {
         text-decoration: underline;
     }
-
-    &:link, &:visited {
+    &:link,
+    &:visited {
         color: $dark-foreground;
     }
-
     &[href^="http"]:empty::before {
         content: attr(href);
     }
@@ -85,29 +89,58 @@ img {
     height: auto;
 }
 
-ul, ol {
+ul,
+ol {
     list-style-position: inside;
 }
 
-li > ul {
+li>ul {
     margin-left: 1rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: $main-colour;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     line-height: 3rem;
 }
 
-p, li {
+p,
+li {
     font-size: 1rem;
     line-height: 1.5rem;
 }
 
-p, ul, ol {
+p,
+ul,
+ol {
     margin-bottom: $padding-medium;
+}
+
+section {
+    &>p,
+    &>ul,
+    &>ol {
+        max-width: 760px;
+        margin: 20px auto;
+    }
+
+    &>img,&>h2,&>h3 {
+        max-width: 900px;
+        margin: 20px auto;
+        display: block;
+    }
 }
 
 .italics {
@@ -121,9 +154,16 @@ p, ul, ol {
 h1 {
     font-size: 3rem;
     margin-bottom: $padding-medium;
-
+    &.big {
+        font-size: 7vw;
+        line-height: 7vw;
+    }
     @media screen and (max-width: $mobile-breakpoint) {
         font-size: 2rem;
+        &.big {
+            font-size: 2rem;
+            line-height: 2rem;
+        }
     }
 }
 
@@ -153,7 +193,6 @@ blockquote {
     margin: 2rem;
     font-size: 1.6rem;
     quotes: "\201C""\201D""\2018""\2019";
-
     &:before {
         content: open-quote;
         position: absolute;
@@ -168,7 +207,6 @@ figure {
     margin-bottom: 20px;
     padding: 10px;
     background: $light-tint;
-
     figcaption {
         text-align: center;
         font-style: italic;

@@ -6,7 +6,6 @@
     color: $dark-foreground;
     text-align: center;
     padding: $padding-medium 0;
-    margin-bottom: $padding-medium;
     border-bottom: 1px solid $secondary-tint;
     @media screen and (max-width: $mobile-breakpoint) {
         display: block;
@@ -42,11 +41,14 @@
 .posts {
     display: flex;
     flex-wrap: wrap;
-    margin-top: $padding;
 }
 
 .post {
     flex: 1 300px;
+    padding: $padding-medium;
+    margin: $padding-medium;
+    box-shadow: 0px 14px 70px -17px rgba(0, 0, 0, 0.75);
+    border-radius: 7px;
     h3 {
         font-size: 1.5rem;
         line-height: 2rem;
@@ -56,13 +58,7 @@
     }
 }
 
-.recent-posts {
-    border-top: 1px solid $secondary-tint;
-    padding-top: 20px;
-}
-
 .meta {
-    margin: 10px 0 5px 0;
     font-style: italic;
     font-variant: small-caps;
 }
@@ -79,6 +75,14 @@
 }
 
 .profile-circle {
+    border-radius: 50%;
+    width: 25vw;
+    min-width: 150px;
+    height: auto;
+    margin: 0 auto 20px auto;
+}
+
+.profile-hexagon {
     float: left;
     width: 300px;
     height: 300px;
