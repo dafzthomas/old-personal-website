@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/dafzthomas/dafz.com.svg?token=84qvzwT6mw8ZymjsRhSF&branch=master)](https://travis-ci.com/dafzthomas/dafz.com)
+[![Build Status](https://travis-ci.org/dafzthomas/dafz.com.svg?branch=master)](https://travis-ci.org/dafzthomas/dafz.com)
 
 # Dafz Thomas Personal Website
 
