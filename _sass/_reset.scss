@@ -131,7 +131,8 @@ ol {
 section {
     &>p,
     &>ul,
-    &>ol {
+    &>ol,
+    &>#disqus_thread {
         max-width: 760px;
         margin: 20px auto;
     }
