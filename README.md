@@ -2,7 +2,7 @@
 
 # Dafz Thomas Personal Website
 
-This is my personal website's repo. Has been made using Jekyll and is hosted with Github Pages.
+This is my personal website's repo. Has been made using Jekyll.
 
 The MIT License (MIT)
 
