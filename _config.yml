@@ -16,7 +16,7 @@ avatar: https://avatars0.githubusercontent.com/u/7442896?v=3&s=240
 disqus: dafzthomaswebsite
 google_analytics: UA-47867713-1
 url: https://dafz.com
-baseurl: ''
+baseurl: 
 markdown: kramdown
 highlighter: rouge
 permalink: "/:title/"
