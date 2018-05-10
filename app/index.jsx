@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 
 import Header from './components/header/header.component.jsx';
-
+import Main from './components/main/main.component';
 
 class App extends React.Component {
     constructor (props) {
@@ -15,9 +15,7 @@ class App extends React.Component {
         return (
             <div>
                 <Header />
-                <main className="main">
-
-                </main>
+                <Main />
             </div>
         );
     }

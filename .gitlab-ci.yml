@@ -8,6 +8,8 @@ before_script:
 publish:
   stage: deploy
   environment: dafz.com
+  only:
+    - master
   script:
     - npm run build
     - cd public
