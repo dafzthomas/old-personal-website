@@ -1,12 +1,3 @@
-_site/
-
-.jekyll-metadata
-
-*.scssc
-.idea
-
-.idea/vcs.xml
-/.sass-cache/
-
-.firebaserc
-/functions
+public/
+node_modules/
+.vscode/
