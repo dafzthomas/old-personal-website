@@ -16,6 +16,12 @@ class Main extends React.Component {
                     <li><a href="https://twitter.com/dafzthomas" rel="me">Twitter</a></li>
                     <li><a href="https://www.facebook.com/dafzthomas" rel="me">Facebook</a></li>
                 </ul>
+                <h2>Cryptocurrency Addresses</h2>
+                <ul>
+                    <li>BTC: 38be96QeRRbXGRAWqv9PzWzennvehcYGpj</li>
+                    <li>ETH: 0xf3291ad8540B3Cf0081ae161a45F4F0e6c670297</li>
+                    <li>LTC: MAopGvwqcuB7igBjmKnqUAmBrThEpNncdp</li>
+                </ul>
             </main>
         );
     }
