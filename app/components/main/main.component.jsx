@@ -16,11 +16,7 @@ class Main extends React.Component {
                     <li><a href="https://twitter.com/dafzthomas" rel="me">Twitter</a></li>
                     <li><a href="https://www.facebook.com/dafzthomas" rel="me">Facebook</a></li>
                 </ul>
-                <ul>
-                    <li>BTC: 38be96QeRRbXGRAWqv9PzWzennvehcYGpj</li>
-                    <li>ETH: 0xf3291ad8540B3Cf0081ae161a45F4F0e6c670297</li>
-                    <li>LTC: MAopGvwqcuB7igBjmKnqUAmBrThEpNncdp</li>
-                </ul>
+
                 <h2>Buy me a coffee</h2>
                 <div>
                     <a class="donate-with-crypto"
@@ -29,6 +25,11 @@ class Main extends React.Component {
                     </a>
                     <script src="https://commerce.coinbase.com/v1/checkout.js"></script>
                 </div>
+                <ul>
+                    <li>BTC: <code>38be96QeRRbXGRAWqv9PzWzennvehcYGpj</code></li>
+                    <li>ETH: <code>0xf3291ad8540B3Cf0081ae161a45F4F0e6c670297</code></li>
+                    <li>LTC: <code>MAopGvwqcuB7igBjmKnqUAmBrThEpNncdp</code></li>
+                </ul>
             </main>
         );
     }
