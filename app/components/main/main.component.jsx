@@ -17,14 +17,7 @@ class Main extends React.Component {
                     <li><a href="https://www.facebook.com/dafzthomas" rel="me">Facebook</a></li>
                 </ul>
 
-                <h2>Buy me a coffee</h2>
-                <div>
-                    <a class="donate-with-crypto"
-                        href="https://commerce.coinbase.com/checkout/651fbff3-5931-4d25-8ffe-d091cdc68349">
-                        <span>Send Crypto</span>
-                    </a>
-                    <script src="https://commerce.coinbase.com/v1/checkout.js"></script>
-                </div>
+                <h2>Crypto</h2>
                 <ul>
                     <li>BTC: <code>38be96QeRRbXGRAWqv9PzWzennvehcYGpj</code></li>
                     <li>ETH: <code>0xf3291ad8540B3Cf0081ae161a45F4F0e6c670297</code></li>
