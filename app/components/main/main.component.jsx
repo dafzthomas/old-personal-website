@@ -14,7 +14,6 @@ class Main extends React.Component {
                 <ul>
                     <li><a href="https://gitlab.com/dafzthomas" rel="me">Gitlab</a></li>
                     <li><a href="https://twitter.com/dafzthomas" rel="me">Twitter</a></li>
-                    <li><a href="https://www.facebook.com/dafzthomas" rel="me">Facebook</a></li>
                 </ul>
 
                 <h2>Crypto</h2>
