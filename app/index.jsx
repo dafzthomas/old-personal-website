@@ -13,10 +13,10 @@ class App extends React.Component {
 
     render () {
         return (
-            <div>
+            <section className="website">
                 <Header />
                 <Main />
-            </div>
+            </section>
         );
     }
 }

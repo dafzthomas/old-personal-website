@@ -10,18 +10,16 @@ class Main extends React.Component {
     render () {
         return (
             <main className="main">
-                <h2>Social Media:</h2>
-                <ul>
-                    <li><a href="https://gitlab.com/dafzthomas" rel="me">Gitlab</a></li>
-                    <li><a href="https://twitter.com/dafzthomas" rel="me">Twitter</a></li>
-                </ul>
+                <section className="crypto-info">
+                    <h2 className="heading" title="Bitcoin">BTC</h2>
+                    <p title="Bitcoin address"><code>38be96QeRRbXGRAWqv9PzWzennvehcYGpj</code></p>
 
-                <h2>Crypto</h2>
-                <ul>
-                    <li>BTC: <code>38be96QeRRbXGRAWqv9PzWzennvehcYGpj</code></li>
-                    <li>ETH: <code>0xf3291ad8540B3Cf0081ae161a45F4F0e6c670297</code></li>
-                    <li>LTC: <code>MAopGvwqcuB7igBjmKnqUAmBrThEpNncdp</code></li>
-                </ul>
+                    <h2 className="heading" title="Ethereum">ETH</h2>
+                    <p title="Ethereum address"><code>0xf3291ad8540B3Cf0081ae161a45F4F0e6c670297</code></p>
+
+                    <h2 className="heading" title="Litecoin">LTC</h2>
+                    <p title="Litecoin address"><code>MAopGvwqcuB7igBjmKnqUAmBrThEpNncdp</code></p>
+                </section>
             </main>
         );
     }

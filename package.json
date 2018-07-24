@@ -4,12 +4,12 @@
   "description": "My personal website",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack --config webpack.dev.js -d --watch",
-    "build": "webpack --config webpack.prod.js -p --optimize-dedupe"
+    "dev": "webpack-cli --config webpack.dev.js -d --watch",
+    "build": "webpack-cli --config webpack.prod.js -p --optimize-dedupe"
   },
   "author": "Dafydd Thomas",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "autoprefixer": "^8.4.1",
     "babel-loader": "^7.1.4",
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
@@ -20,7 +20,7 @@
     "handlebars": "^4.0.11",
     "handlebars-loader": "^1.7.0",
     "html-webpack-plugin": "^3.2.0",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.9.2",
     "path": "^0.12.7",
     "postcss-loader": "^2.1.4",
     "preact": "^8.2.9",
@@ -29,7 +29,6 @@
     "react-dom": "^16.3.2",
     "sass-loader": "^7.0.1",
     "style-loader": "^0.21.0",
-    "web3": "^1.0.0-beta.34",
     "webpack": "^4.6.0",
     "webpack-bundle-analyzer": "^2.11.1",
     "webpack-cli": "^2.1.2"

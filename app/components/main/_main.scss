@@ -1,3 +1,21 @@
+.website {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
 main {
     padding: 0 20px 20px 20px;
+}
+
+.crypto-info {
+    margin-top: 40px;
+    text-align: center;
+
+    .heading {
+        margin: 0;
+        font-size: .9rem;
+    }
 }
