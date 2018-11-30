@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+        {% include meta.html %}
+
+        <link rel="stylesheet" type="text/css" href="/style.css?version={{ site.version }}"/>
+        <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="/feed.xml"/>
+    </head>
+
+    <body>
+        {% include header.html %}
+        <main id="main" role="main" class="container">
+            {{ content }}
+        </main>
+        {% include footer.html %}
+    </body>
+</html>
