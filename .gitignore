@@ -1,3 +1,14 @@
-public/
-node_modules/
-.vscode/
+_site/
+
+.jekyll-metadata
+
+*.scssc
+.idea
+
+.idea/vcs.xml
+/.sass-cache/
+
+.firebaserc
+/functions
+
+.DS_Store
