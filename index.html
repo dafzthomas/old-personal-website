@@ -6,18 +6,3 @@ bannerStyle: 'background: #11367d; color: #FFF;'
 ---
 
 {% include title-normal.html %}
-
-<section>
-    <h2>Posts</h2>
-    {% for post in site.categories['blog'] %}
-    <article class="post">
-        <h3><a href="{{ post.url }}" aria-label="Post: {{ post.title }}">{{ post.title }}</a></h3>
-        <div class="post__content">
-            {% if post.date %}
-            <p class="meta">{{ post.date | date: '%B %d, %Y' }}</p>
-            {% endif %}
-            <p aria-label="Post excerpt: {{ post.postExcerpt }}">{{ post.postExcerpt }}</p>
-        </div>
-    </article>
-    {% endfor %}
-</section>
