@@ -1,6 +1,7 @@
 _site/
 
 .jekyll-metadata
+.jekyll-cache
 
 *.scssc
 .idea
