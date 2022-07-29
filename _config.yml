@@ -13,7 +13,7 @@ name: Dafydd Thomas
 email: dafz@thomasweb.co
 description: Web developer.
 avatar: https://avatars0.githubusercontent.com/u/7442896?v=3&s=240
-url: https://dafzthomas.com
+url: https://old.dafzthomas.com
 baseurl:
 markdown: kramdown
 highlighter: rouge
@@ -23,14 +23,14 @@ paginate_path: "/blog/:num/"
 sass:
   style: compressed
 plugins:
-- jekyll-sitemap
-- jekyll-feed
-- jekyll-paginate
-- sassc
-- octopress-autoprefixer
-- octopress-minify-html
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+  - sassc
+  - octopress-autoprefixer
+  - octopress-minify-html
 exclude:
-- Gemfile
-- Gemfile.lock
-- LICENSE
-- README.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
